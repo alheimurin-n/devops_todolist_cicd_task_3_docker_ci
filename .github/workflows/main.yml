@@ -54,3 +54,9 @@ jobs:
         with:
           name: python-artifacts
           path: .
+
+      - name: Upload python artifactes
+        uses: actions/uppload-artifact@v4
+        with:
+          name: python-artifact
+          path: .
